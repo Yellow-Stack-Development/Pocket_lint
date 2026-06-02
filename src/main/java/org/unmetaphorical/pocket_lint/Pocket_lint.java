@@ -17,6 +17,7 @@ import org.unmetaphorical.pocket_lint.block.NastyCauldronBlock;
 import org.unmetaphorical.pocket_lint.block.SoapyCauldronBlock;
 import org.unmetaphorical.pocket_lint.init.ModEffects;
 import org.unmetaphorical.pocket_lint.init.ModItems;
+import org.unmetaphorical.pocket_lint.init.ModSounds;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import org.unmetaphorical.pocket_lint.event.CauldronInteractionHandler;
 import org.unmetaphorical.pocket_lint.init.ModBlocks;
@@ -50,6 +51,7 @@ public class Pocket_lint implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        ModSounds.registerSounds();
         ModItems.registerModItems();
         ModEffects.registerEffects();
 
@@ -97,6 +99,7 @@ public class Pocket_lint implements ModInitializer {
                     entries.add(ModItems.LYE);
                     entries.add(ModItems.JAR_OF_WOOD_ASH);
                     entries.add(ModItems.POCKET_LINT_ITEM);
+                    entries.add(ModItems.SOAPY_DISC);
                     entries.add(ModItems.LINT_PAD);
                     entries.add(ModItems.RAG);
                     entries.add(ModItems.WET_RAG);
@@ -137,6 +140,7 @@ public class Pocket_lint implements ModInitializer {
                     entries.add(ModItems.POCKET_LINT_ITEM);
                     entries.add(ModItems.BUTCHERS_CLEAVER);
                     entries.add(ModItems.NASTY_SCRAPER);
+                    entries.add(ModItems.SOAPY_DISC);
                     entries.add(ModItems.LINT_PAD);
                     entries.add(ModItems.RAG);
                     entries.add(ModItems.WET_RAG);

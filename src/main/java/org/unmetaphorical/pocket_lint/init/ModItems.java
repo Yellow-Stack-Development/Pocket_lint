@@ -64,6 +64,9 @@ public class ModItems {
     public static final Item POCKET_LINT_ITEM = registerItem("pocket_lint_item",
             new Item(new Item.Settings()));
             
+    public static final Item SOAPY_DISC = registerItem("soapy_disc",
+            new Item(new Item.Settings().maxCount(1).rarity(net.minecraft.util.Rarity.RARE).jukeboxPlayable(ModSounds.SOAPY_MUSIC_KEY)));
+
     public static final Item LINT_PAD = registerItem("lint_pad",
             new Item(new Item.Settings()));
 
@@ -80,7 +83,7 @@ public class ModItems {
             new Item(new Item.Settings()));
 
     public static final Item SOILED_RAG = registerItem("soiled_rag",
-            new Item(new Item.Settings()));
+            new RagItem(new Item.Settings().maxDamage(20)));
 
     public static final Item LINT_BALE = registerItem("lint_bale",
             new net.minecraft.item.BlockItem(ModBlocks.LINT_BALE, new Item.Settings()) {

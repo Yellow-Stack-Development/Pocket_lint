@@ -9,17 +9,19 @@
   "block.pocket_lint.soapy_cauldron": "Soapy Cauldron",
   "block.pocket_lint.nasty_cauldron": "Nasty Cauldron",
   "block.pocket_lint.lint_bale": "Lint Bale",
-  "block.pocket_lint.soiled_wool": "Soiled Wool",
-  "block.pocket_lint.soiled_carpet": "Soiled Carpet",
+  "block.pocket_lint.soiled_wool": "Rot Wool",
+  "block.pocket_lint.soiled_carpet": "Rot Carpet",
 
   "block.pocket_lint.lint_bale.colored": "%s Lint Bale",
-  "block.pocket_lint.soiled_wool.colored": "%s Soiled Wool",
-  "block.pocket_lint.soiled_carpet.colored": "%s Soiled Carpet",
+  "block.pocket_lint.soiled_wool.colored": "%s Rot Wool",
+  "block.pocket_lint.soiled_carpet.colored": "%s Rot Carpet",
 
   "item.pocket_lint.nasty_scraper": "Nasty Scraper",
   "item.pocket_lint.butchers_cleaver": "Butchers Cleaver",
 
   "item.pocket_lint.soiled_rag": "Soiled Rag",
+  "item.pocket_lint.soapy_disc": "Music Disc",
+  "jukebox_song.pocket_lint.soapy_music": "SullivanIII - Untitled Music Disk",
   "item.pocket_lint.rotten_gunk": "Rotten Gunk",
   "itemGroup.pocket_lint.soap": "Pocket Lint: Soap",
   "itemGroup.pocket_lint.rot": "Pocket Lint: Rot",

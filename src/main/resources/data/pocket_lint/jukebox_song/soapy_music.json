@@ -1,0 +1,8 @@
+{
+  "sound_event": "pocket_lint:soapy_music",
+  "description": {
+    "translate": "jukebox_song.pocket_lint.soapy_music"
+  },
+  "length_in_seconds": 180,
+  "comparator_output": 15
+}

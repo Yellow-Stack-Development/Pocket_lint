@@ -1,0 +1,11 @@
+{
+  "soapy_music": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pocket_lint:soapy_music",
+        "stream": true
+      }
+    ]
+  }
+}
