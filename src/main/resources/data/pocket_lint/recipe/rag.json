@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pocket_lint:lint_pad"
+    },
+    {
+      "item": "pocket_lint:lint_pad"
+    },
+    {
+      "item": "pocket_lint:lint_pad"
+    }
+  ],
+  "result": {
+    "id": "pocket_lint:rag",
+    "count": 1
+  }
+}

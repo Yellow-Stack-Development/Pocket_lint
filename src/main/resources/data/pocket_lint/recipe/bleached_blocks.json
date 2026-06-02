@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "pocket_lint:wet_rag" },
+    { "tag": "minecraft:dyed_blocks" }
+  ],
+  "result": {
+    "id": "minecraft:white_wool",
+    "count": 1
+  }
+}

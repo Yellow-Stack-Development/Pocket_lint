@@ -1,0 +1,6 @@
+{
+  "parent": "pocket_lint:block/tinted_carpet",
+  "textures": {
+    "wool": "pocket_lint:block/soiled_wool"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "pocket_lint:pocket_lint_item"
+    },
+    "title": "Pocket Lint",
+    "description": "It's not useless if you find it in your pocket!",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "visible": true
+  },
+  "criteria": {
+    "has_lint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pocket_lint:pocket_lint_item"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "color=natural": { "model": "pocket_lint:block/lint_bale" },
+    "color=white": { "model": "pocket_lint:block/lint_bale" },
+    "color=orange": { "model": "pocket_lint:block/lint_bale" },
+    "color=magenta": { "model": "pocket_lint:block/lint_bale" },
+    "color=light_blue": { "model": "pocket_lint:block/lint_bale" },
+    "color=yellow": { "model": "pocket_lint:block/lint_bale" },
+    "color=lime": { "model": "pocket_lint:block/lint_bale" },
+    "color=pink": { "model": "pocket_lint:block/lint_bale" },
+    "color=gray": { "model": "pocket_lint:block/lint_bale" },
+    "color=light_gray": { "model": "pocket_lint:block/lint_bale" },
+    "color=cyan": { "model": "pocket_lint:block/lint_bale" },
+    "color=purple": { "model": "pocket_lint:block/lint_bale" },
+    "color=blue": { "model": "pocket_lint:block/lint_bale" },
+    "color=brown": { "model": "pocket_lint:block/lint_bale" },
+    "color=green": { "model": "pocket_lint:block/lint_bale" },
+    "color=red": { "model": "pocket_lint:block/lint_bale" },
+    "color=black": { "model": "pocket_lint:block/lint_bale" }
+  }
+}

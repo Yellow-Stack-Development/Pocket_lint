@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "pocket_lint",
+  "version": "${version}",
+  "name": "Pocket_lint",
+  "description": "Its supposed to be usless, but for some reason its not?",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/pocket_lint/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.unmetaphorical.pocket_lint.client.Pocket_lintDataGenerator"
+    ],
+    "client": [
+      "org.unmetaphorical.pocket_lint.client.Pocket_lintClient"
+    ],
+    "main": [
+      "org.unmetaphorical.pocket_lint.Pocket_lint"
+    ]
+  },
+  "mixins": [
+    "pocket_lint.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

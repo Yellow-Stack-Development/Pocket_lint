@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "pocket_lint:animal_fat"
+    }
+  },
+  "result": {
+    "id": "pocket_lint:soap",
+    "count": 1
+  }
+}

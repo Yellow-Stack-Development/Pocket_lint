@@ -1,0 +1,19 @@
+{
+  "parent": "pocket_lint:from_rags_to_riches",
+  "display": {
+    "icon": {
+      "id": "pocket_lint:wet_rag"
+    },
+    "title": "Germaphobe",
+    "description": "Clean a dirty mob",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "visible": true
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "parent": "pocket_lint:root",
+  "display": {
+    "icon": {
+      "id": "pocket_lint:soap"
+    },
+    "title": "Clean Freak",
+    "description": "Throw soap into a cauldron to make soapy water",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "visible": true
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

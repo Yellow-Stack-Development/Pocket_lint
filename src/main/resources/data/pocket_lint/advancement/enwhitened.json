@@ -1,0 +1,19 @@
+{
+  "parent": "pocket_lint:from_rags_to_riches",
+  "display": {
+    "icon": {
+      "id": "pocket_lint:wet_rag"
+    },
+    "title": "Enwhitened",
+    "description": "Clean a dyed object back to its white version",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "visible": true
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
